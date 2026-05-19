@@ -1,0 +1,35 @@
+# Local environment configuration
+.env
+.env.local
+.env.*.local
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing and coverage results
+.phpunit.result.cache
+.pytest_cache/
+coverage/
+
+# Subfolder ignores fallback (though they have their own gitignores)
+frontend/node_modules/
+frontend/dist/
+backend/vendor/
+backend/storage/framework/
+backend/storage/logs/
+backend/storage/*.key
